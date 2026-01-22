@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+    <settings>
+        <title>Quiz Interaktif</title>
+        <timePerQuestion>0</timePerQuestion>
+        <showFeedback>true</showFeedback>
+        <shuffleQuestions>false</shuffleQuestions>
+        <passingScore>60</passingScore>
+    </settings>
+    
+    <appearance>
+        <theme>
+            <backgroundColor>#F5F7FA</backgroundColor>
+            <headerBackground>#4F46E5</headerBackground>
+            <buttonBackground>#6366F1</buttonBackground>
+            <buttonHover>#4F46E5</buttonHover>
+            <correctColor>#22C55E</correctColor>
+            <wrongColor>#EF4444</wrongColor>
+        </theme>
+        
+        <fonts>
+            <headerFont>
+                <family>Segoe UI</family>
+                <size>20</size>
+                <style>BOLD</style>
+            </headerFont>
+            <questionFont>
+                <family>Segoe UI</family>
+                <size>22</size>
+                <style>PLAIN</style>
+            </questionFont>
+            <buttonFont>
+                <family>Segoe UI</family>
+                <size>18</size>
+                <style>PLAIN</style>
+            </buttonFont>
+        </fonts>
+        
+        <dimensions>
+            <windowWidth>700</windowWidth>
+            <windowHeight>550</windowHeight>
+            <headerHeight>80</headerHeight>
+            <buttonHeight>60</buttonHeight>
+        </dimensions>
+    </appearance>
+    
+    <messages>
+        <correctAnswer>Benar! ✓</correctAnswer>
+        <wrongAnswer>Salah! ✗</wrongAnswer>
+        <correctDetail>Jawaban Anda benar!</correctDetail>
+        <wrongDetail>Jawaban Anda kurang tepat.</wrongDetail>
+        <quizComplete>🎉 Quiz Selesai! 🎉</quizComplete>
+        <yourScore>Skor Anda:</yourScore>
+        <closeButton>Tutup</closeButton>
+    </messages>
+    
+    <timing>
+        <feedbackDelay>1000</feedbackDelay>
+        <nextQuestionDelay>1500</nextQuestionDelay>
+    </timing>
+</quiz>
